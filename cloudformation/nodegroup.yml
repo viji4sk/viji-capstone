@@ -1,5 +1,5 @@
 Description: >
-  Felix Lutze / Capstone Project
+  vijis / Capstone Project
   Creates the nodegroup for the Amazon EKS Cluster
 Parameters:
   EnvironmentName:
@@ -9,22 +9,22 @@ Parameters:
 
   MinSize:
     Description: Minimum number of web application servers
-    Default: 2
+    Default: 1
     Type: String
 
   MaxSize:
     Description: Maximum number of web application servers
-    Default: 6
+    Default: 4
     Type: String
 
   DesiredSize:
     Description: How many instances should be created.
-    Default: 4
+    Default: 2
     Type: Number
 
   KeyPairName:
     Description: The EC2 Key Pair to allow SSH access to the instances
-    Default: udacity
+    Default: udaviji
     Type: AWS::EC2::KeyPair::KeyName
 
 Mappings:
