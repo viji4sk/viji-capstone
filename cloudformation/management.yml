@@ -1,5 +1,5 @@
 Description: >
-  Felix Lutze / Capstone Project
+  vijis / Capstone Project
   Creates two individual hosts to manage the EKS-Cluster
 
 Parameters:
@@ -9,7 +9,7 @@ Parameters:
     Type: String
   SSHKeyName:
     Description: SSH key for management access
-    Default: udacity
+    Default: udaviji
     Type: String
   amiImageId:
     Description: Defines the Image-ID of the OS to deploy
