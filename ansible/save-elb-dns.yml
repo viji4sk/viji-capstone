@@ -18,3 +18,5 @@
         content: "{{ elb_dns.stdout }}"
         dest: "~/bin/elb_dns.txt"
       delegate_to: localhost
+      args:
+        chdir: $HOME
