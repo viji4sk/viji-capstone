@@ -13,12 +13,12 @@
         chdir: $HOME
     
     - name: check deplyment status 
-      shell: "./bin/kubectl get deployments 
+      shell: "./bin/kubectl get deployments"
       args:
         chdir: $HOME
         
     - name: check deplyment status 
-      shell: "./bin/kubectl get services 
+      shell: "./bin/kubectl get services"
       args:
         chdir: $HOME    
 
