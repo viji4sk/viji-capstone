@@ -9,17 +9,17 @@ Parameters:
 
   MinSize:
     Description: Minimum number of web application servers
-    Default: 1
+    Default: 2
     Type: String
 
   MaxSize:
     Description: Maximum number of web application servers
-    Default: 4
+    Default: 6
     Type: String
 
   DesiredSize:
     Description: How many instances should be created.
-    Default: 2
+    Default: 4
     Type: Number
 
   KeyPairName:
