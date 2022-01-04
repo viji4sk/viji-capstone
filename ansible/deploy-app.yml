@@ -14,5 +14,7 @@
 
     - name: Check if deployment ist successful
       shell: "./bin/kubectl rollout status deployments/{{ ENVIRONMENT_NAME }}-deployment"
+      async: 720
+      poll: 10
       args:
         chdir: $HOME
