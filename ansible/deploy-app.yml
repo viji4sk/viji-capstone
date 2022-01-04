@@ -14,6 +14,6 @@
 
     - name: Check if deployment ist successful
       shell: "./bin/kubectl rollout status deployments/{{ ENVIRONMENT_NAME }}-deployment"
-          timeout: 12m
+      no_output_timeou: 12m
       args:
         chdir: $HOME
