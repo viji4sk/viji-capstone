@@ -11,10 +11,18 @@
       shell: "./bin/kubectl set image deployments/{{ ENVIRONMENT_NAME }}-deployment {{ ENVIRONMENT_NAME }}-app=vijis/{{ ENVIRONMENT_NAME }}:{{ CIRCLE_WORKFLOW_ID }}"
       args:
         chdir: $HOME
+    
+    - name: check deplyment status 
+      shell: "./bin/kubectl get deployments 
+      args:
+        chdir: $HOME
+        
+    - name: check deplyment status 
+      shell: "./bin/kubectl get services 
+      args:
+        chdir: $HOME    
 
     - name: Check if deployment ist successful
       shell: "./bin/kubectl rollout status deployments/{{ ENVIRONMENT_NAME }}-deployment"
-      async: 720
-      poll: 10
       args:
         chdir: $HOME
