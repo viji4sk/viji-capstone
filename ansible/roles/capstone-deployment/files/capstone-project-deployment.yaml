@@ -19,4 +19,4 @@ spec:
           image: vijisdockeruda/capstone-project
           ports:
             - containerPort: 80
-       
+      
