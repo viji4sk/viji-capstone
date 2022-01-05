@@ -1,5 +1,5 @@
 # Cloud DevOps Engineer Capstone Project
-
+[![CircleCI](https://circleci.com/gh/viji4sk/viji-capstone/tree/master.svg?style=svg)](https://circleci.com/gh/viji4sk/viji-capstone/tree/master)
 ## Whats used in this project
 - Using Circle CI to implement Continuous Integration and Continuous Deployment
 - Building pipelines
@@ -29,13 +29,14 @@ CircleCi to create a CI/CD Pipeline to test and deploy changes manually before t
 ## Linting using Pylint and Hadolint
 
 #### Lint fails:
+![image](https://user-images.githubusercontent.com/94306530/148209762-a0d3c359-da1d-422a-9daf-b61983c66418.png)
 
-
+![image](https://user-images.githubusercontent.com/94306530/148209630-c40f46d1-515b-46ff-8972-0b5e530ad0e6.png)
 
 #### Lint passes:
-
+![image](https://user-images.githubusercontent.com/94306530/148209837-97c0d997-d390-4b2e-badb-abdfd8b4edfe.png)
+![image](https://user-images.githubusercontent.com/94306530/148209938-a9832eee-cd9a-4874-99c7-3b525e2f13a0.png)
 
 ## Access the Application
-
 Public LB DNS: http:/a83672434bb60467e8ebcb3c9b3dc282-537929929.us-east-1.elb.amazonaws.com
-<here>
+
