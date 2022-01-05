@@ -39,4 +39,6 @@ CircleCi to create a CI/CD Pipeline to test and deploy changes manually before t
 
 ## Access the Application
 Public LB DNS: http:/a83672434bb60467e8ebcb3c9b3dc282-537929929.us-east-1.elb.amazonaws.com
+![image](https://user-images.githubusercontent.com/94306530/148211158-a636fa39-d44d-4ed3-b664-a68c2749117b.png)
+
 
