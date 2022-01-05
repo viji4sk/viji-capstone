@@ -26,6 +26,9 @@ The CloudFormation Deployment can be broken down into four Parts:
 CircleCi to create a CI/CD Pipeline to test and deploy changes manually before they get deployed automatically to the Cluster using Ansible.
 ![image](https://user-images.githubusercontent.com/94306530/148208576-35e0f2a1-35c8-46ff-ac85-513fee543fbd.png)
 
+## Imaged pushed and pulled from docker hub used for the deployment by Kubernetes
+![image](https://user-images.githubusercontent.com/94306530/148211371-615c5695-9bfd-4ab1-914b-a4ffb7c4aea4.png)
+
 ## Linting using Pylint and Hadolint
 
 #### Lint fails:
