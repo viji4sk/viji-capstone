@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: capstone-project-app
-          image: vijisdockeruda/vijis:capstone-project
+          image: vijisdockeruda/capstone-project
           ports:
             - containerPort: 80
        
